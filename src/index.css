@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "ALSSchlangesans";
+	src: url(./assets/fonts/ALSSchlangesans/ALSSchlangesans.woff2),
+		url(./assets/fonts/ALSSchlangesans/ALSSchlangesans-Thin.woff2),
+		url(./assets/fonts/ALSSchlangesans/ALSSchlangesans-Light.woff2),
+		url(./assets/fonts/ALSSchlangesans/ALSSchlangesans-Bold.woff2),
+		url(./assets/fonts/ALSSchlangesans/ALSSchlangesans-Black.woff2);
+}
+body {
+	margin: 0;
+	font-family: ALSSchlangesans, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

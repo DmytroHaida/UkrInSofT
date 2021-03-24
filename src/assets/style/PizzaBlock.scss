@@ -1,0 +1,30 @@
+.pizza-block {
+    max-width: 300px;
+    padding: 5px;
+    .active {
+        background-color: #ffffff;
+    }
+}
+.pizza-block__tittle {
+    margin: 0 0 5px 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.pizza-block__ingridients {
+    max-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e8e8e8;
+    padding: 6px;
+    border-radius: 8px;
+    span {
+        margin: 0 5px;
+    }
+
+}
+.pizza-block__bottom {
+    margin-top: 10px;
+    text-align: center;
+}
